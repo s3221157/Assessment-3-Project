@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- bootstrap css -->
@@ -35,7 +36,7 @@
 
     <title>RoomyPlanner</title>
   </head>
-  
+
   <body>
     <!-- Nav Bar -->
     <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
@@ -53,7 +54,7 @@
         <div class="collapse navbar-collapse" id="navmenu">
           <ul class="navbar-nav ms-auto">
             <!-- <li class="nav-item">
-            <a href="" class="nav-link"><i class="fa-solid fa-right-to-bracket"></i></a> 
+            <a href="" class="nav-link"><i class="fa-solid fa-right-to-bracket"></i></a>
             </li> -->
             <li class="nav-item">
               <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#signup"><i class="fa-solid fa-user-plus"></i>&nbsp; SIGN UP</a>
@@ -93,12 +94,12 @@
         </div>
       </div>
     </section>
-    
+
     <!-- Cards
     <section id="features" class="p-5">
         <div class="container">
         <div class="row text-center g-5">
-         
+
             <div class="col-md">
                 <div class="card bg-dark text-light">
                     <div class="card-body text-center">
@@ -154,8 +155,8 @@
       </section>
        -->
 
-        
-       
+
+
         <!-- Chores Section -->
         <section id="chores" class="p-5">
           <div class="container">
@@ -189,10 +190,10 @@
                 <h2>Manage your expensese</h2>
                 <p class="lead">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam culpa temporibus dolore quia, quasi magnam.
-                  
+
                 </p>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam asperiores placeat autem recusandae et, nihil incidunt nobis iure alias provident maiores tempore adipisci hic eius facere doloribus laborum debitis reiciendis?
-                  
+
                 </p>
                 <a href="#" class="btn btn-light mt-3"><i class="bi bi-chevron-right"></i>Learn More</a>
               </div>
@@ -200,12 +201,12 @@
               <div class="col-md">
                 <img src="expense2.svg" alt="" class="img-fluid h-75">
               </div>
-              
+
             </div>
 
           </div>
         </section>
-       
+
         <!-- Questions Accordion -->
 
         <section id="Questions" class="p-5">
@@ -252,7 +253,7 @@
           <div class="container">
             <div class="d-md-flex justify-content-between align-items-center">
               <h3 class="mb-3 mb-md-0">Sign up to our Newsletter</h3>
-    
+
               <div class="input-group news-input">
                 <input type="text" class="form-control" placeholder="Enter Email" />
                 <div class="input-group-append">
@@ -274,7 +275,7 @@
       <div class="card bg-light">
         <div class="card-body text-center ">
           <img src="https://randomuser.me/api/portraits/men/3.jpg" class="rounded-circle mb-3" alt="">
-        
+
         <h3 class="card-title mb-3 ">Madhur </h3>
         <p class="card-text ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. In aut iusto, neque id similique repellendus!  </p>
         <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
@@ -288,7 +289,7 @@
       <div class="card bg-light">
         <div class="card-body text-center ">
           <img src="https://randomuser.me/api/portraits/men/3.jpg" class="rounded-circle mb-3" alt="">
-        
+
         <h3 class="card-title mb-3 ">Anna</h3>
         <p class="card-text ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. In aut iusto, neque id similique repellendus!  </p>
         <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
@@ -302,7 +303,7 @@
       <div class="card bg-light">
         <div class="card-body text-center ">
           <img src="https://randomuser.me/api/portraits/men/3.jpg" class="rounded-circle mb-3" alt="">
-        
+
         <h3 class="card-title mb-3 ">Jing</h3>
         <p class="card-text ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. In aut iusto, neque id similique repellendus!  </p>
         <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
@@ -317,7 +318,7 @@
       <div class="card bg-light">
         <div class="card-body text-center ">
           <img src="https://randomuser.me/api/portraits/men/3.jpg" class="rounded-circle mb-3" alt="">
-        
+
         <h3 class="card-title mb-3 ">Mark</h3>
         <p class="card-text ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. In aut iusto, neque id similique repellendus!  </p>
         <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
@@ -331,7 +332,7 @@
       <div class="card bg-light">
         <div class="card-body text-center ">
           <img src="https://randomuser.me/api/portraits/men/3.jpg" class="rounded-circle mb-3" alt="">
-        
+
         <h3 class="card-title mb-3 ">Muhammad</h3>
         <p class="card-text ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. In aut iusto, neque id similique repellendus!  </p>
         <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
@@ -366,11 +367,11 @@
           <li class="list-group-item"><span class="fw-bold">Main Location</span>
             50 main street, Tarneit
           </li>
-        
+
         </ul>
       </div>
-    
-      
+
+
     </div>
   </div>
  </section>
@@ -399,9 +400,9 @@
       <div class="modal-body ">
         <h2 class="text-center">Sign-up</h2>
         <form action="" >
-        
+
           <div class="mb-3">
-            
+
             <label for="first-name" class="col-form-label">First Name
          </label>
         <input type="text" class="form-control" id="first-name">
@@ -424,18 +425,25 @@
 
          </label>
         <input type="password" class="form-control" id="password">
+
+
         </div>
-        
+
+
+        <div class="mb-3"><label for="password" id="errorTxt" class="col-form-label">
+        </label>
+        </div>
+
 
 
         </form>
-        
 
-        
+
+
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-secondary">Submit</button>
+        <button type="button" class="btn btn-secondary" id="submitter" >Submit</button>
       </div>
     </div>
   </div>
@@ -454,8 +462,8 @@
       <div class="modal-body ">
         <h2 class="text-center">Log-In</h2>
         <form action="" >
-        
-     
+
+
 
          <div class="mb-3"><label for="email" class="col-form-label">Email
          </label>
@@ -472,18 +480,23 @@
           <input type="checkbox" class="form-check-input" id="exampleCheck1">
           <label class="form-check-label" for="exampleCheck1">Keep Me Logged In</label>
         </div>
-        
+
+        <div class="mb-3"><label for="password" id="errorMsg" class="col-form-label">
+        </label>
+        </div>
+
 
 
         </form>
-        
 
-        
+
+
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <a href="dashboard.html" class="btn btn-secondary">Log In </a>
-        
+        <button type="button" class="btn btn-secondary" id="login">Log In</button>
+        <!--<a href="dashboard.html" class="btn btn-secondary">Log In </a>-->
+
       </div>
     </div>
   </div>
@@ -495,6 +508,49 @@
       integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
       crossorigin="anonymous"
     ></script>
+
+    <script type="text/javascript" src="people.js"></script>
+    <script type="text/javascript" src="validateLogon.js"></script>
+    <script>
+
+      $(document).ready(function(){
+        $("#login").click(function(){
+        
+          var emailAddress = $("#log-in #email").val();
+          var passWord = $("#log-in #password").val();
+          var message = checkReg( emailAddress, passWord);
+          //if (checkReg( emailAddress, passWord) ==) {
+          if ( message == ""){
+            window.location.href = "dashboard.html";
+          }
+          else {
+            $("#log-in #errorMsg").css('color', 'red');
+            $("#log-in #errorMsg").text("*** "+message+" ***");
+          }
+        });
+
+        $("#submitter").click(function(){
+          var firstname = $("#signup #first-name").val();
+          //alert( firstname);
+          var surname = $("#signup #last-name").val();
+          //alert( surname);
+          var emailAddress = $("#signup #email").val();
+          var passWord = $("#signup #password").val();
+          var message = newReg( firstname, surname, emailAddress, passWord);
+          //if (checkReg( emailAddress, passWord) ==) {
+          if ( message == ""){
+            window.location.href = "dashboard.html";
+          }
+          else {
+            $("#signup #errorTxt").css('color', 'red');
+            $("#signup #errorTxt").text("*** "+message+" ***");
+          }
+        });
+
+      });
+
+    </script>
+
     </body>
 
 </html>
